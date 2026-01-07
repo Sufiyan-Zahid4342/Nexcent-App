@@ -7,7 +7,7 @@ interface CarouselState {
   prevSlide: () => void;
 }
 
-export const useCarouselStore = create<CarouselState>((set, get) => ({
+export const useCarouselStore = create<CarouselState>((set) => ({
   activeIndex: 0,
   setActiveIndex: (index) => set({ activeIndex: index }),
   nextSlide: () =>
