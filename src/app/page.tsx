@@ -4,7 +4,7 @@ import DemoSection from '@/components/DemoSection';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import MarketingSection from '@/components/MarketingSection';
-import Navbar from '@/components/Navbar';
+
 import PromoSection from '@/components/PromoSection';
 import StatsSection from '@/components/StateSection';
 import TestimonialSection from '@/components/TestimonialSection';

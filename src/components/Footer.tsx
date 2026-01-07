@@ -27,7 +27,7 @@ const Footer = () => {
 
           <div className="flex space-x-3 pt-2">
             {platforms.map((platform) => {
-              const Icon = iconMap[platform];
+              const Icon = iconMap[platform as keyof typeof iconMap];
               return (
                 <a
                   key={platform}

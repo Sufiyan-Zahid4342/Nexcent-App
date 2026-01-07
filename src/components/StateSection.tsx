@@ -1,5 +1,5 @@
 import { Users, Share2, CalendarCheck, CreditCard } from 'lucide-react';
-
+import { LucideIcon, LucideProps } from 'lucide-react';
 export default function StatsSection() {
   return (
     <div className="bg-gray-50 py-16 px-6 md:px-20">
@@ -29,7 +29,7 @@ export default function StatsSection() {
 }
 
 // Reusable Stat Component
-function Stat({ icon, number, label }) {
+function Stat({ icon, number, label }: { icon: React.ReactElement<LucideProps>, number: string | number, label: string }) {
   return (
     <div className="flex items-center space-x-3">
       <div>{icon}</div>
