@@ -1,5 +1,5 @@
 import { Users, Share2, CalendarCheck, CreditCard } from 'lucide-react';
-import { LucideIcon, LucideProps } from 'lucide-react';
+import {  LucideProps } from 'lucide-react';
 export default function StatsSection() {
   return (
     <div className="bg-gray-50 py-16 px-6 md:px-20">
